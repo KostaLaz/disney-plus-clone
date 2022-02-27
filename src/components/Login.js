@@ -96,4 +96,8 @@ const CTALogoOne = styled.img`
     } 
   `;
 
+  const Description = styled.p`
+    color: 
+  `;
+
 export default Login;

@@ -3,7 +3,14 @@ import styled from 'styled-components';
 
 const Header = (props) => {
   return (
-    <Navbar>Header</Navbar>
+    <Navbar>
+      <Logo>
+        <img src="/images/logo.svg"/>
+      </Logo>
+      <NavMenu>
+        Menu
+      </NavMenu>
+    </Navbar>
   )
 }
 
@@ -20,6 +27,24 @@ const Navbar = styled.div`
   padding: 0 36px;
   letter-spacing: 15px;
   z-index: 3;
+`;
+
+const Logo = styled.a`
+  width: 80px;
+  padding 0;
+  margin-top: 4px;
+  max-height: 70px;
+  font-size: 0;
+  img {
+    display: block;
+    width: 100%
+  }
+`;
+
+const NavMenu = styled.div`
+  align-items: center;
+  display: flex;
+  flex-flow: row nowrap;
 `;
 
 

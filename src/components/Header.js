@@ -14,6 +14,12 @@ const Navbar = styled.div`
   right: 0;
   height: 70px;
   background-color: #090b13;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 36px;
+  letter-spacing: 15px;
+  z-index: 3;
 `;
 
 

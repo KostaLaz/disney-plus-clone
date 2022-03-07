@@ -8,7 +8,9 @@ const Header = (props) => {
         <img src="/images/logo.svg"/>
       </Logo>
       <NavMenu>
-        Menu
+        <a href='/home'>
+          <img src="/images/home-icon.svg" alt="HOME" />
+        </a>
       </NavMenu>
     </Navbar>
   )
@@ -53,9 +55,9 @@ const NavMenu = styled.div`
   margin-right: auto;
   margin-left: 25px;
 
-  @media (max-width: 768px) {
+  /* @media (max-width: 768px) {
     display: none;
-  }
+  } */
 `;
 
 
